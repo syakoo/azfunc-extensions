@@ -1,6 +1,13 @@
 # azfunc-extensions
 Azure Functions を用いた Python の開発体験(DX)を向上させるために作成した個人ライブラリ
 
+## Installation
+pip でインストールできます(使用する際は GitHub にスターをいただけると嬉しいです)：
+
+```bash
+$ pip install git+https://github.com/syakoo/azfunc-extensions
+```
+
 ## Document ↔ Dataclass のコンバータ
 Azure Function と Cosmos DB は非常に相性がいいですが、Cosmos DB から持ってきたデータは `Document` クラスのインスタンスです。
 コイツが使いにくくデータベースのパラメータが何だったのか、型は何だったのかがよくわからなくなります。
