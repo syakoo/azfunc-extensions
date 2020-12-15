@@ -6,8 +6,8 @@ def _requires_from_file(filename):
 
 
 setuptools.setup(
-    name="azfunc-extensions",
-    version="0.1",
+    name="azfunc_extensions",
+    version="0.2",
     author="syakoo",
     author_email="sakodata0318@gmail.com",
     description="Azure functions' extension tools for Python.",
